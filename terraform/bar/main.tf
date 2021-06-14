@@ -5,7 +5,7 @@ variable "pet_words" {
 
 variable "seed" {
     type = number
-    default = 0
+    default = 3
 }
 
 resource "random_pet" "lees_favorite" {
