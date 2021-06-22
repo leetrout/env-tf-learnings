@@ -8,7 +8,7 @@ terraform {
 
 variable "seed" {
     type = number
-    default = 4
+    default = 5
 }
 
 module "my_rando" {
